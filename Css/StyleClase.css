@@ -1,0 +1,29 @@
+h1{
+    color:red
+}
+/*menu*/
+ul { 
+    border-right-style:dashed¨;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #560d78;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(48, 151, 20);
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #369b17;
+}
+.active {
+    background-color: #e00ec4;
+    
+}
