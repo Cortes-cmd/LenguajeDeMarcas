@@ -1,0 +1,21 @@
+.Barra_Navegacion{
+
+    background-color: blueviolet;
+
+}
+
+body{
+    background-image: url("../img/Img\ Fondo.jpg");
+}
+.Barra_Navegacion a {
+    color: red;
+}
+
+.Titulo_Halloween{
+    color:springgreen;
+}
+
+icon{
+    color: red;
+}
+
