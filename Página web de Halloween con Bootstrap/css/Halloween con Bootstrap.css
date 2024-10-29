@@ -13,6 +13,7 @@ body{
 
 .Titulo_Halloween{
     color:springgreen;
+    text-align: center;
 }
 
 icon{
@@ -21,7 +22,5 @@ icon{
 
 .navbar-toggler-icon{
 
-    background-color: transparent;
+background-color: transparent;
 }
-
-
