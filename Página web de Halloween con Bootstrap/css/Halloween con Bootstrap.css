@@ -24,3 +24,18 @@ icon{
 
 background-color: transparent;
 }
+
+
+._img{
+    padding-top:4% ;    
+}
+
+.col-md-8{
+    text-align: center;
+    padding-top:8% ;    
+}
+
+._button{
+    text-align: center ;
+    margin-top: 8%;
+}
