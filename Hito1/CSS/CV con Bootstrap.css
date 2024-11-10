@@ -1,0 +1,48 @@
+.Barra_Navegacion{
+
+    background-color: rgb(96, 11, 11);
+
+}
+
+.Barra_Navegacion a {
+    color: rgb(0, 0, 0);
+}
+
+.card-img-top{
+    padding: 2%;
+}
+
+ol{
+    color: beige;
+}
+
+.col-md-8 h1{
+    padding: 2%;
+    color: darkorange;
+}
+
+.col-md-4{
+    padding: 2%;
+
+}
+
+.card{
+    padding: 2%;
+
+}
+
+.col-md-8{
+    background-color: gray;
+}
+
+.col-md-4{
+    background-color: gray;
+}
+
+hr{
+    border-color: rgb(221, 8, 93);
+}
+
+.Footer{
+    margin-top: 1%;
+}
