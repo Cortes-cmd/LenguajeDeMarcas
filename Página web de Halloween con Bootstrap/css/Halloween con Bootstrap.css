@@ -39,3 +39,12 @@ background-color: transparent;
     text-align: center ;
     margin-top: 8%;
 }
+
+._info{
+    color: purple;
+}
+
+.row_M .col-md-2{
+
+    margin-top: 1%;
+}
