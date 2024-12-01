@@ -1,0 +1,65 @@
+ul { 
+    border-right-style:dashed¨;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(14, 209, 56);
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #369b17;
+}
+.active {
+    background-color: #705b16;
+    
+}
+h1{
+text-align:center;
+color: rgb(15, 131, 58);
+}
+.Img_1_Index{
+text-align:center    
+}
+
+body{
+background-color: aquamarine;
+}
+.Pascua{
+    margin-left: auto;
+    margin-right:auto;
+    /*text-align: center;*/
+    padding:50px 50px;
+}
+
+.Imgs1{
+text-align: center;
+
+}
+
+.Imgs2{
+    text-align: center;
+}
+
+.UbicadoEn{
+    padding: 15px 16px;
+}
+.gal1{
+   width: 450px;
+   height: 250 ; 
+}
+
+.gal2{
+    width: 450px;
+    height: 250 ; 
+ }
