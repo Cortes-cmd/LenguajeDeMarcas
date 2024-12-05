@@ -1,0 +1,7 @@
+<!ELEMENT Formas_De_Meter_GOL (Pantorrilla, Chilena, Psicológica)>
+<!ELEMENT Pantorrilla (Estilo, Resultado, Impacto)>
+<!ELEMENT Estilo (#PCDATA)>
+<!ELEMENT Resultado (#PCDATA)>
+<!ELEMENT Impacto (#PCDATA)>
+<!ELEMENT Chilena (Estilo, Resultado, Impacto)>
+<!ELEMENT Psicológica (Estilo, Resultado, Impacto)>
