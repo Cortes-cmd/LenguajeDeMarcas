@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<body>
+<peliculas>
+<pelicula id="1">
+<titulo>El vuelo</titulo>
+<Año>2012</Año>
+<Genero>Drama</Genero>
+<Duracion>240 min</Duracion>
+<Valoracion>6/10</Valoracion>
+<imagen>https://m.media-amazon.com/images/M/MV5BMTUxMjI1OTMxNl5BMl5BanBnXkFtZTcwNjc3NTY1OA@@._V1_.jpghttps://m.media-amazon.com/images/M/MV5BMTUxMjI1OTMxNl5BMl5BanBnXkFtZTcwNjc3NTY1OA@@._V1_.jpg</imagen>
+</pelicula>
+</peliculas>
+</body>
+</html>

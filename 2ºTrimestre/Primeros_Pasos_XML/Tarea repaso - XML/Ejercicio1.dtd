@@ -1,0 +1,12 @@
+<!ELEMENT html (body)>
+<!ELEMENT body (peliculas)>
+<!ELEMENT peliculas (pelicula)>
+<!ELEMENT pelicula (titulo, Año, Genero, Duracion, Valoracion, imagen)>
+<!ATTLIST pelicula
+          id CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT Año (#PCDATA)>
+<!ELEMENT Genero (#PCDATA)>
+<!ELEMENT Duracion (#PCDATA)>
+<!ELEMENT Valoracion (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
