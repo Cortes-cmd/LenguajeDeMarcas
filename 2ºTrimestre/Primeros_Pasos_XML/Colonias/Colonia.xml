@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:/C:/Users/CampusFP/Documents/Git/MiPrimerRepo/LenguajeDeMarcas/2%C2%BATrimestre/Primeros_Pasos_XML/Colonias/Colonia.xsl"?>
+<!DOCTYPE colonias SYSTEM "file:/C:/Users/CampusFP/Documents/Git/MiPrimerRepo/LenguajeDeMarcas/2%C2%BATrimestre/Primeros_Pasos_XML/Colonias/Colonia.dtd">
+<colonias>
+  <colonia id="1">
+    <nombre>Amor amor</nombre>
+    <marca>Cacharel</marca>
+    <cantidad>100</cantidad>
+    <precio>50</precio>
+  </colonia>
+    <colonia id="2">
+  <nombre>Wawa</nombre>
+  <marca>JeanPaul Gautier</marca>
+  <cantidad>150</cantidad>
+  <precio>50</precio>
+  </colonia>
+</colonias>

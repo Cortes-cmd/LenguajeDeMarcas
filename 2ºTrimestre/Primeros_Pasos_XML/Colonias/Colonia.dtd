@@ -1,0 +1,8 @@
+<!ELEMENT colonias (colonia+)>
+<!ELEMENT colonia (nombre, marca, cantidad, precio?)>
+<!ATTLIST colonia
+          id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
