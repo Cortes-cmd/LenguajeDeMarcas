@@ -14,14 +14,15 @@ document.addEventListener("DOMContentLoaded", function() {
         //En caso de error, se mostrará en consola esa falla.
         .catch(error => console.error('Error al cargar el archivo JSON:', error));
 
-
+// Carga los pedidos del archivo data.json en la tabla con el id "tablaPedidos", y los introduce en el tbody.
     function cargarPedidos(pedidos) {
         const tbody = document.querySelector("#tablaPedidos tbody");
         tbody.innerHTML = "";
-
+        // La variable pedidos, contiene todos los datos de los 2 años, de ahí, recorremos con foreach, cada trimestre, de cada trimestre, nos adentramos una capa más, y vemos los pedidos de cada trimestre, y de todos los pedidos, saca cada pedido individualmente.
         Object.values(pedidos).forEach(trimestre => {
             Object.values(trimestre).forEach(listaPedidos => {
                 listaPedidos.forEach(pedido => {
+                    // Y devuelve los datos en las filas de la tabla con el contenido de las variables de cada pedido.
                     const row = `<tr>
                         <td>${pedido.numero_pedido}</td>
                         <td>${pedido.fecha_compra}</td>
@@ -33,18 +34,21 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
     }
-//La función cargarClientes, lee los datos de pedidos del data.json, y apli
+//La función cargarClientes, lee los datos de pedidos del data.json, y aplicando un set, evita que se repitan los clientes por nombre, apellidos, y teléfono, para luego introducirlos en la tabla con el id "tablaClientes".
     function cargarClientes(pedidos) {
         const tbody = document.querySelector("#tablaClientes tbody");
         tbody.innerHTML = "";
+        //Creamos un set para evitar que se repitan los clientes.
         const clientesSet = new Set();
 
+        //Recorremos los pedidos como en la función anterior, de cada dato del pedido, los del cliente, comprobaremos si se repiten, acordes a los datos introducidos en "clienteId".
         Object.values(pedidos).forEach(trimestre => {
             Object.values(trimestre).forEach(listaPedidos => {
                 listaPedidos.forEach(pedido => {
                     const clienteId = `${pedido.cliente.nombre}-${pedido.cliente.apellidos}-${pedido.cliente.telefono}`;
                     if (!clientesSet.has(clienteId)) {
                         clientesSet.add(clienteId);
+                        //Y si no se repiten, los introduce en la tabla con los datos de cada cliente.
                         const row = `<tr>
                             <td>${pedido.cliente.nombre}</td>
                             <td>${pedido.cliente.apellidos}</td>
@@ -61,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
     }
-
+    // 
     function cargarProductosVendidos(pedidos) {
         const tbody = document.querySelector("#tablaProductosVendidos tbody");
         tbody.innerHTML = "";
