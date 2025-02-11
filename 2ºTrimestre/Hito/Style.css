@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(0, 0, 0, 0.986);
+    color: white;
+    text-align: center;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom:5% ;
+    background-color: #4b0082;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+    padding: 10%;
+    margin-bottom: 10%;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid white;
+}
+
+th {
+    background-color: #4b0082;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #6a0dad;
+}
+
+thead {
+    border-bottom: 2px solid white;
+}
