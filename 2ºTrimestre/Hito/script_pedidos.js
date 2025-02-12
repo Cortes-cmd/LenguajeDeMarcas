@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     //Con el fetch cargamos los datos del archivo data.json.
     fetch('data.json')
-        //Cuando suceda, introducimos lo que devuelve el fetch en la variable response, que convertimos en la sintaxis de JSON.
+        //Cuando suceda, introducimos lo que devuelve el fetch en la variable response, que convertimos en un objeto JSON.
         .then(response => response.json())
         //Este contenido con la sintaxis del JSON, en la variable data, que se introducirá en cada función, pues se servirán de esos datos para cargar la información
         .then(data => {
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
     }
-    // 
+    // Esta función crea una constante trimestres que alberga los datos del primer trimestre del 2023, y del último del 2024 y recoge los datos del producto vendido de cada pedido.
     function cargarProductosVendidos(pedidos) {
         const tbody = document.querySelector("#tablaProductosVendidos tbody");
         tbody.innerHTML = "";
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
             pedidos["2023"] ? pedidos["2023"]["Q1"] : [],
             pedidos["2024"] ? pedidos["2024"]["Q4"] : []
         ];
-
+        // Por cada trimestre, obtiene una lista de los pedidos, y de cada uno, el pedido, de cada pedido, el producto, y estos datos, son los que proyectará en el html posteriormente.
         trimestres.forEach(listaPedidos => {
             listaPedidos.forEach(pedido => {
                 pedido.productos.forEach(producto => {
@@ -89,16 +89,18 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
     }
-
+    // Esta función, carga los datos de un cliente en particular, los del 2023, el trimestre 1 ("Q1"), y el que se encuentre en la posición 0, lo que nos lleva al primer pedido del data.json.
     function cargarFactura(pedidos) {
         const tbody = document.querySelector("#tablaFactura tbody");
         tbody.innerHTML = "";
 
         // Verifica que los datos existan y tengan la estructura esperada
         if (pedidos["2023"] && pedidos["2023"]["Q1"] && pedidos["2023"]["Q1"].length > 0) {
+            //Cuando obtiene este punto de la lista del json, lo introduce en la variable pedido
             const pedido = pedidos["2023"]["Q1"][0];
+            //Y del pedido, los datos del cliente, los introduce en la variable cliente
             const cliente = pedido.cliente;
-
+            // De cada producto comprado, en este caso 1, mostrará el nombre y apellidos del cliente, así como el nombre, precio, y unidades, del producto en si.
             pedido.productos.forEach(producto => {
                 const row = `<tr>
                     <td>${cliente.nombre} ${cliente.apellidos}</td>
@@ -109,6 +111,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 tbody.innerHTML += row;
             });
         } else {
+            //Si no lo encuentra, muestra mensaje de error
             console.error('No se encontraron datos para la factura en el primer trimestre de 2023.');
         }
     }

@@ -1,13 +1,13 @@
 body {
-    background-color: rgba(0, 0, 0, 0.986);
-    color: white;
+    background-color: rgba(68, 45, 45, 0.699);
+    color: black;
     text-align: center;
 }
 
 h1{
     margin-top: 20px;
     margin-bottom:5% ;
-    background-color: #4b0082;
+    background-color: #9c7ca3;
 }
 
 h2 {
@@ -28,11 +28,11 @@ th, td {
 }
 
 th {
-    background-color: #4b0082;
+    background-color: #845ec2;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #6a0dad;
+    background-color: #1284e2;
 }
 
 thead {
