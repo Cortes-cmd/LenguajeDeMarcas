@@ -1,0 +1,1122 @@
+{
+    "2023": {
+        "Q1": [
+            {
+                "numero_pedido": "2023Q1-001",
+                "fecha_compra": "2023-01-10",
+                "fecha_entrega": "2023-01-15",
+                "total_factura": 45.99,
+                "cliente": {
+                    "nombre": "German",
+                    "apellidos": "Gema",
+                    "telefono": "12348789",
+                    "direccion": {
+                        "calle": "Calle Inferior 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28021",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "german.gema@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Collar para perro",
+                        "referencia": "P001",
+                        "precio": 15.99,
+                        "unidades": 1
+                    }
+                    ]
+            },
+            {
+                "numero_pedido": "2023Q1-002",
+                "fecha_compra": "2023-01-20",
+                "fecha_entrega": "2023-01-25",
+                "total_factura": 30.00,
+                "cliente": {
+                    "nombre": "Martina",
+                    "apellidos": "Cometa",
+                    "telefono": "987611321",
+                    "direccion": {
+                        "calle": "Avenida Gran Vía 9",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08210",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "martina.cometa@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Rascador para gatos",
+                        "referencia": "P003",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q1-003",
+                "fecha_compra": "2023-02-10",
+                "fecha_entrega": "2023-02-15",
+                "total_factura": 50.00,
+                "cliente": {
+                    "nombre": "Pablo",
+                    "apellidos": "Blo",
+                    "telefono": "123456009",
+                    "direccion": {
+                        "calle": "Calle Intermedia 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28101",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "pablo.blo@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Transportín para perros",
+                        "referencia": "P004",
+                        "precio": 50.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q1-004",
+                "fecha_compra": "2023-03-05",
+                "fecha_entrega": "2023-03-10",
+                "total_factura": 40.00,
+                "cliente": {
+                    "nombre": "Miura",
+                    "apellidos": "Marui",
+                    "telefono": "555222777",
+                    "direccion": {
+                        "calle": "Calle Llanura 7",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46401",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "miura.marui@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para perros",
+                        "referencia": "P005",
+                        "precio": 40.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q1-005",
+                "fecha_compra": "2023-03-25",
+                "fecha_entrega": "2023-03-30",
+                "total_factura": 45.99,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "123987654",
+                    "direccion": {
+                        "calle": "Calle del Sol 3",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28002",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "ana.lopez@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Juguete para tortugas",
+                        "referencia": "P006",
+                        "precio": 45.99,
+                        "unidades": 1
+                    }
+                ]
+            }
+        ],
+        "Q2": [
+            {
+                "numero_pedido": "2023Q2-001",
+                "fecha_compra": "2023-04-05",
+                "fecha_entrega": "2023-04-10",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Lolo",
+                    "apellidos": "Trolo",
+                    "telefono": "123999789",
+                    "direccion": {
+                        "calle": "Calle Superdia 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28031",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "lolo.trolo@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para perros 10kg",
+                        "referencia": "P007",
+                        "precio": 60.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q2-002",
+                "fecha_compra": "2023-04-12",
+                "fecha_entrega": "2023-04-15",
+                "total_factura": 30.00,
+                "cliente": {
+                    "nombre": "Faro",
+                    "apellidos": "Rofa",
+                    "telefono": "952254321",
+                    "direccion": {
+                        "calle": "Avenida Gran Bahía 5",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08011",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "faro.rofa@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Rascador para gatos",
+                        "referencia": "P003",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q2-003",
+                "fecha_compra": "2023-04-18",
+                "fecha_entrega": "2023-04-22",
+                "total_factura": 25.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "García",
+                    "telefono": "123456789",
+                    "direccion": {
+                        "calle": "Calle Mayor 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28001",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "carlos.garcia@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Collar para perro",
+                        "referencia": "P001",
+                        "precio": 15.99,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q2-004",
+                "fecha_compra": "2023-05-02",
+                "fecha_entrega": "2023-05-05",
+                "total_factura": 55.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "555666777",
+                    "direccion": {
+                        "calle": "Calle Luna 7",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "pedro.martinez@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Transportín para perros",
+                        "referencia": "P005",
+                        "precio": 55.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q2-005",
+                "fecha_compra": "2023-05-15",
+                "fecha_entrega": "2023-05-20",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "123987654",
+                    "direccion": {
+                        "calle": "Calle del Sol 3",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28002",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "ana.lopez@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Juguete interactivo para perros",
+                        "referencia": "P006",
+                        "precio": 60.00,
+                        "unidades": 1
+                    }
+                ]
+            }
+        ],
+        "Q3": [
+            {
+                "numero_pedido": "2023Q3-001",
+                "fecha_compra": "2023-07-05",
+                "fecha_entrega": "2023-07-10",
+                "total_factura": 55.00,
+                "cliente": {
+                    "nombre": "Mewin",
+                    "apellidos": "win",
+                    "telefono": "123450089",
+                    "direccion": {
+                        "calle": "Calle sassa 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28701",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "mewin.win@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Collar para perro",
+                        "referencia": "P008",
+                        "precio": 25.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Juguete para gato",
+                        "referencia": "P009",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q3-002",
+                "fecha_compra": "2023-07-12",
+                "fecha_entrega": "2023-07-17",
+                "total_factura": 45.99,
+                "cliente": {
+                    "nombre": "Rupertia",
+                    "apellidos": "Propa",
+                    "telefono": "911654321",
+                    "direccion": {
+                        "calle": "Ah venida Gran Vía 12",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08810",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "rupertia.propa@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Rascador para gatos",
+                        "referencia": "P003",
+                        "precio": 45.99,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q3-003",
+                "fecha_compra": "2023-08-05",
+                "fecha_entrega": "2023-08-10",
+                "total_factura": 50.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "García",
+                    "telefono": "123456789",
+                    "direccion": {
+                        "calle": "Calle Mayor 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28001",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "carlos.garcia@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Transportín para perros",
+                        "referencia": "P004",
+                        "precio": 50.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q3-004",
+                "fecha_compra": "2023-08-22",
+                "fecha_entrega": "2023-08-27",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "555666777",
+                    "direccion": {
+                        "calle": "Calle Luna 7",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "pedro.martinez@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para perros 15kg",
+                        "referencia": "P010",
+                        "precio": 60.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q3-005",
+                "fecha_compra": "2023-09-10",
+                "fecha_entrega": "2023-09-15",
+                "total_factura": 40.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "123987654",
+                    "direccion": {
+                        "calle": "Calle del Sol 3",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28002",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "ana.lopez@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Juguete interactivo para perros",
+                        "referencia": "P006",
+                        "precio": 40.00,
+                        "unidades": 1
+                    }
+                ]
+            }
+        ],
+        "Q4": [
+            {
+                "numero_pedido": "2023Q4-001",
+                "fecha_compra": "2023-10-05",
+                "fecha_entrega": "2023-10-10",
+                "total_factura": 65.00,
+                "cliente": {
+                    "nombre": "Zoraida",
+                    "apellidos": "Cerulea",
+                    "telefono": "123116789",
+                    "direccion": {
+                        "calle": "Calle Palto 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28881",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "zoraida.cerulea@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Transportín para gatos",
+                        "referencia": "P011",
+                        "precio": 65.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q4-002",
+                "fecha_compra": "2023-10-15",
+                "fecha_entrega": "2023-10-20",
+                "total_factura": 55.00,
+                "cliente": {
+                    "nombre": "Portu",
+                    "apellidos": "Tatis",
+                    "telefono": "92654321",
+                    "direccion": {
+                        "calle": "Avenida Gran Día 5",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "18010",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "portu.tatis@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Rascador para gatos",
+                        "referencia": "P003",
+                        "precio": 55.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q4-003",
+                "fecha_compra": "2023-11-05",
+                "fecha_entrega": "2023-11-10",
+                "total_factura": 75.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "García",
+                    "telefono": "123456789",
+                    "direccion": {
+                        "calle": "Calle Mayor 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28001",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "carlos.garcia@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para perros 20kg",
+                        "referencia": "P012",
+                        "precio": 75.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q4-004",
+                "fecha_compra": "2023-11-12",
+                "fecha_entrega": "2023-11-17",
+                "total_factura": 50.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "555666777",
+                    "direccion": {
+                        "calle": "Calle Luna 7",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "pedro.martinez@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para perros 10kg",
+                        "referencia": "P013",
+                        "precio": 50.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2023Q4-005",
+                "fecha_compra": "2023-12-05",
+                "fecha_entrega": "2023-12-10",
+                "total_factura": 40.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "123987654",
+                    "direccion": {
+                        "calle": "Calle del Sol 3",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28002",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "ana.lopez@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Juguete interactivo para perros",
+                        "referencia": "P006",
+                        "precio": 40.00,
+                        "unidades": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "2024": {
+        "Q1": [
+            {
+                "numero_pedido": "2024Q1-001",
+                "fecha_compra": "2024-01-10",
+                "fecha_entrega": "2024-01-15",
+                "total_factura": 50.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "García",
+                    "telefono": "123456789",
+                    "direccion": {
+                        "calle": "Calle Mayor 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28001",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "carlos.garcia@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Collar para perro",
+                        "referencia": "P001",
+                        "precio": 15.99,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Juguete para gato",
+                        "referencia": "P002",
+                        "precio": 10.50,
+                        "unidades": 2
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2024Q1-002",
+                "fecha_compra": "2024-01-20",
+                "fecha_entrega": "2024-01-25",
+                "total_factura": 30.00,
+                "cliente": {
+                    "nombre": "Laura",
+                    "apellidos": "Fernández",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Avenida Gran Vía 5",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08010",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "laura.fernandez@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Rascador para gatos",
+                        "referencia": "P003",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2024Q1-003",
+                "fecha_compra": "2024-02-10",
+                "fecha_entrega": "2024-02-15",
+                "total_factura": 55.00,
+                "cliente": {
+                    "nombre": "Manuel",
+                    "apellidos": "Apostol",
+                    "telefono": "123456589",
+                    "direccion": {
+                        "calle": "Calle Menor 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28001",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "manuel.apostol@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Transportín para perros",
+                        "referencia": "P004",
+                        "precio": 55.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2024Q1-004",
+                "fecha_compra": "2024-03-05",
+                "fecha_entrega": "2024-03-10",
+                "total_factura": 40.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "555666777",
+                    "direccion": {
+                        "calle": "Calle Luna 7",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "pedro.martinez@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para perros",
+                        "referencia": "P005",
+                        "precio": 40.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2024Q1-005",
+                "fecha_compra": "2024-03-25",
+                "fecha_entrega": "2024-03-30",
+                "total_factura": 45.99,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "123987654",
+                    "direccion": {
+                        "calle": "Calle del Sol 3",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28002",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "ana.lopez@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Juguete para perros",
+                        "referencia": "P006",
+                        "precio": 45.99,
+                        "unidades": 1
+                    }
+                ]
+            }
+        ],
+        "Q2": [
+            {
+                "numero_pedido": "2024Q2-001",
+                "fecha_compra": "2024-04-05",
+                "fecha_entrega": "2024-04-10",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "García",
+                    "telefono": "123456789",
+                    "direccion": {
+                        "calle": "Calle Mayor 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28001",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "carlos.garcia@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para perros 10kg",
+                        "referencia": "P007",
+                        "precio": 60.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2024Q2-002",
+                "fecha_compra": "2024-04-12",
+                "fecha_entrega": "2024-04-15",
+                "total_factura": 35.00,
+                "cliente": {
+                    "nombre": "Laura",
+                    "apellidos": "Fernández",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Avenida Gran Vía 5",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08010",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "laura.fernandez@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Rascador para gatos",
+                        "referencia": "P003",
+                        "precio": 35.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2024Q2-003",
+                "fecha_compra": "2024-04-18",
+                "fecha_entrega": "2024-04-22",
+                "total_factura": 25.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "García",
+                    "telefono": "123456789",
+                    "direccion": {
+                        "calle": "Calle Mayor 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28001",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "carlos.garcia@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Collar para perro",
+                        "referencia": "P001",
+                        "precio": 15.99,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2024Q2-004",
+                "fecha_compra": "2024-05-02",
+                "fecha_entrega": "2024-05-05",
+                "total_factura": 55.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "555666777",
+                    "direccion": {
+                        "calle": "Calle Luna 7",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "pedro.martinez@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Transportín para perros",
+                        "referencia": "P005",
+                        "precio": 55.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2024Q2-005",
+                "fecha_compra": "2024-05-15",
+                "fecha_entrega": "2024-05-20",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "123987654",
+                    "direccion": {
+                        "calle": "Calle del Sol 3",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28002",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "ana.lopez@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Juguete interactivo para perros",
+                        "referencia": "P006",
+                        "precio": 60.00,
+                        "unidades": 1
+                    }
+                ]
+            }
+        ],
+        "Q3": [
+            {
+                "numero_pedido": "2024Q3-001",
+                "fecha_compra": "2024-07-05",
+                "fecha_entrega": "2024-07-10",
+                "total_factura": 55.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "García",
+                    "telefono": "123456789",
+                    "direccion": {
+                        "calle": "Calle Mayor 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28001",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "carlos.garcia@email.com"
+                
+                },
+                "productos": [
+                    {
+                        "nombre": "Collar para perro",
+                        "referencia": "P008",
+                        "precio": 25.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Juguete para gato",
+                        "referencia": "P009",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2024Q3-002",
+                "fecha_compra": "2024-07-12",
+                "fecha_entrega": "2024-07-17",
+                "total_factura": 45.99,
+                "cliente": {
+                    "nombre": "Laura",
+                    "apellidos": "Fernández",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Avenida Gran Vía 5",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08010",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "laura.fernandez@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Rascador para gatos",
+                        "referencia": "P003",
+                        "precio": 45.99,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2024Q3-003",
+                "fecha_compra": "2024-08-01",
+                "fecha_entrega": "2024-08-05",
+                "total_factura": 50.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "García",
+                    "telefono": "123456789",
+                    "direccion": {
+                        "calle": "Calle Mayor 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28001",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "carlos.garcia@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Juguete para perros",
+                        "referencia": "P010",
+                        "precio": 50.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2024Q3-004",
+                "fecha_compra": "2024-08-20",
+                "fecha_entrega": "2024-08-25",
+                "total_factura": 60.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "López",
+                    "telefono": "123987654",
+                    "direccion": {
+                        "calle": "Calle del Sol 3",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28002",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "ana.lopez@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Rascador para gatos",
+                        "referencia": "P003",
+                        "precio": 60.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2024Q3-005",
+                "fecha_compra": "2024-09-05",
+                "fecha_entrega": "2024-09-10",
+                "total_factura": 45.99,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Martínez",
+                    "telefono": "555666777",
+                    "direccion": {
+                        "calle": "Calle Luna 7",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "correo": "pedro.martinez@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para perros",
+                        "referencia": "P011",
+                        "precio": 45.99,
+                        "unidades": 1
+                    }
+                ]
+            }
+        ],
+        "Q4": [
+            {
+                "numero_pedido": "2024Q4-001",
+                "fecha_compra": "2024-10-05",
+                "fecha_entrega": "2024-10-10",
+                "total_factura": 35.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "García",
+                    "telefono": "123456789",
+                    "direccion": {
+                        "calle": "Calle Mayor 1",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28001",
+                        "provincia": "Madrid"
+                    },
+                    "correo": "carlos.garcia@email.com"
+                   
+                },
+                "productos": [
+                    {
+                        "nombre": "Juguete para perro",
+                        "referencia": "P012",
+                        "precio": 35.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "numero_pedido": "2024Q4-002",
+                "fecha_compra": "2024-10-15",
+                "fecha_entrega": "2024-10-20",
+                "total_factura": 30.00,
+                "cliente": {
+                    "nombre": "Laura",
+                    "apellidos": "Fernández",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Avenida Gran Vía 5",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08010",
+                        "provincia": "Barcelona"
+                    },
+                    "correo": "laura.fernandez@email.com",
+                    "recurrente": false
+                },
+                "productos": [
+                    {
+                        "nombre": "Rascador para hamsters",
+                        "referencia": "P003",
+                        "precio": 30.00,
+                        "unidades": 1
+                    }
+                ]
+            },{
+                "numero_pedido": "2024Q4-003",
+                "fecha_compra": "2024-11-01",
+                "fecha_entrega": "2024-11-05",
+                "total_factura": 40.00,
+                "cliente": {
+                  "nombre": "Robert",
+                  "apellidos": "Proper",
+                  "telefono": "127756789",
+                  "direccion": {
+                    "calle": "Calle Minoria 1",
+                    "ciudad": "Madrid",
+                    "codigo_postal": "28001",
+                    "provincia": "Madrid"
+                  },
+                  "correo": "robertproper@email.com"
+                 
+                },
+                "productos": [
+                  {
+                    "nombre": "Collar para jabalí",
+                    "referencia": "P013",
+                    "precio": 40.00,
+                    "unidades": 1
+                  }
+                ]
+              },
+              {
+                "numero_pedido": "2024Q4-004",
+                "fecha_compra": "2024-11-20",
+                "fecha_entrega": "2024-11-25",
+                "total_factura": 45.00,
+                "cliente": {
+                  "nombre": "Ana",
+                  "apellidos": "López",
+                  "telefono": "123987654",
+                  "direccion": {
+                    "calle": "Calle del Sol 3",
+                    "ciudad": "Madrid",
+                    "codigo_postal": "28002",
+                    "provincia": "Madrid"
+                  },
+                  "correo": "ana.lopez@email.com",
+                  "recurrente": false
+                },
+                "productos": [
+                  {
+                    "nombre": "Comida para pájaros",
+                    "referencia": "P014",
+                    "precio": 45.00,
+                    "unidades": 1
+                  }
+                ]
+              },
+              {
+                "numero_pedido": "2024Q4-005",
+                "fecha_compra": "2024-12-01",
+                "fecha_entrega": "2024-12-05",
+                "total_factura": 50.00,
+                "cliente": {
+                  "nombre": "Pedro",
+                  "apellidos": "Martínez",
+                  "telefono": "555666777",
+                  "direccion": {
+                    "calle": "Calle Luna 7",
+                    "ciudad": "Valencia",
+                    "codigo_postal": "46001",
+                    "provincia": "Valencia"
+                  },
+                  "correo": "pedro.martinez@email.com"
+                 
+                },
+                "productos": [
+                  {
+                    "nombre": "Pelota chirriante para perros",
+                    "referencia": "P015",
+                    "precio": 50.00,
+                    "unidades": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+    
+
+
