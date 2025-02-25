@@ -1,0 +1,6 @@
+<!ELEMENT notas (alumno+)>
+<!ELEMENT alumno (nota1, nota2, nota3, media)>
+<!ELEMENT nota1 (#PCDATA)>
+<!ELEMENT nota2 (#PCDATA)>
+<!ELEMENT nota3 (#PCDATA)>
+<!ELEMENT media (#PCDATA)>
