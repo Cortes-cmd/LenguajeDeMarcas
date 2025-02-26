@@ -24,7 +24,7 @@
                             <td><xsl:value-of select="nota1"/></td>
                             <td><xsl:value-of select="nota2"/></td>
                             <td><xsl:value-of select="nota3"/></td>
-                            <td><xsl:value-of select="media"/></td>
+                            <td><xsl:value-of select="sum(nota1+nota2+nota3) div 3"/></td>
                         </tr>
                     </xsl:for-each>
                 </table>
