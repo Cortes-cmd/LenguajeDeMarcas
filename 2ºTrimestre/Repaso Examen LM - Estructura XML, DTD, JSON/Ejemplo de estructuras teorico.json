@@ -20,13 +20,13 @@
     ]
 }
 
-<!DOCTYPE productos[
+
     <!ELEMENT productos (producto+)>
     <!ELEMENT producto (nombre,precio,stock)>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT precio (#PCDATA)>
     <!ELEMENT stock (#PCDATA)>
-]>
+
 
 
 
