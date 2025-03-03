@@ -1,0 +1,17 @@
+
+table{
+ width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+
+
+th, td 
+{ border: 1px solid black; padding: 10px; text-align: left; }
+
+.card 
+{ border: 1px solid black; padding: 10px; margin: 10px; display: inline-block; width: 200px; color: rgb(17, 108, 154); background-color: rgba(55, 102, 44, 0.712);}
+
+#cards-container {
+    flex: 0 0 auto;
+    margin: 10px;
+    align-items: center;
+    color: chartreuse;
+}
