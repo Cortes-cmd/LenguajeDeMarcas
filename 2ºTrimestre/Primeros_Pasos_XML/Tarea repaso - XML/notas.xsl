@@ -4,11 +4,6 @@
         <html>
             <head>
                 <title>Notas de Alumnos</title>
-                <style>
-                    table { border-collapse: collapse; width: 50%; margin: 20px; }
-                    th, td { border: 1px solid black; padding: 8px; text-align: center; }
-                    th { background-color: #f2f2f2; }
-                </style>
             </head>
             <body>
                 <h2>Notas de Alumnos</h2>
@@ -24,7 +19,20 @@
                             <td><xsl:value-of select="nota1"/></td>
                             <td><xsl:value-of select="nota2"/></td>
                             <td><xsl:value-of select="nota3"/></td>
-                            <td><xsl:value-of select="sum(nota1+nota2+nota3) div 3"/></td>
+                           <!-- Cálculo de media -->
+                            <td>
+                                <xsl:value-of select="(number(nota1) + number(nota2) + number(nota3)) div 3"/>
+                            </td>
+                            
+                            <!-- Multiplicación de notas -->
+                            <td>
+                                <xsl:value-of select="number(nota1) * number(nota2) * number(nota3)"/>
+                            </td>
+                            
+                            <!-- Porcentaje de Nota 1 respecto a la suma de las tres notas -->
+                            <td>
+                                <xsl:value-of select="(number(nota1) div (number(nota1) + number(nota2) + number(nota3))) * 100"/>%
+                            </td>
                         </tr>
                     </xsl:for-each>
                 </table>
