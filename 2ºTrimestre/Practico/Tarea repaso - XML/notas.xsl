@@ -24,7 +24,20 @@
                             <td><xsl:value-of select="nota1"/></td>
                             <td><xsl:value-of select="nota2"/></td>
                             <td><xsl:value-of select="nota3"/></td>
-                            <td><xsl:value-of select="sum(nota1+nota2+nota3) div 3"/></td>
+                              <!-- Cálculo de media -->
+                            <td>
+                                <xsl:value-of select="(number(nota1) + number(nota2) + number(nota3)) div 3"/>
+                            </td>
+                            
+                            <!-- Multiplicación de notas -->
+                            <td>
+                                <xsl:value-of select="number(nota1) * number(nota2) * number(nota3)"/>
+                            </td>
+                            
+                            <!-- Porcentaje de Nota 1 respecto a la suma de las tres notas -->
+                            <td>
+                                <xsl:value-of select="(number(nota1) div (number(nota1) + number(nota2) + number(nota3))) * 100"/>%
+                            </td>
                         </tr>
                     </xsl:for-each>
                 </table>
