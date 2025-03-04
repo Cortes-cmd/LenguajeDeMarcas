@@ -1,26 +1,30 @@
 {
     "catalogo":{
         
-        "personas": [
+        "productos": [
             {
-                "nombre": "Juan",
-                "edad": 25,
-                "ciudad": "Madrid"
+                "marca": "Apple",
+                "modelo": "Gx 406",
+                "precio": 590,
+                "imagen": "Manzana"
             },
             {
-                "nombre": "María",
-                "edad": 30,
-                "ciudad": "Barcelona"
+                "marca": "Samsung",
+                "modelo": "Core Note 9S",
+                "precio": 470,
+                "imagen": "Samsung en gris"
             },
             {
-                "nombre": "Carlos",
-                "edad": 22,
-                "ciudad": "Valencia"
+                "marca": "Xiaomi",
+                "modelo": "Xiaomi Redmi Note 9",
+                "precio": 320,
+                "imagen": "M naranja"
             },
             {
-                "nombre": "Laura",
-                "edad": 28,
-                "ciudad": "Sevilla"
+                "marca": "Nvidia",
+                "modelo": "Nvidia RTX 3060 ti",
+                "precio": 1029,
+                "imagen": "E de Nvidia en verde"
             }
         ]
 

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="file:/C:/Users/CampusFP/Documents/Git/MiPrimerRepo/LenguajeDeMarcas/2%C2%BATrimestre/Primeros_Pasos_XML/Tarea%20repaso%20-%20XML/notas.xsl"?>
-<!DOCTYPE notas SYSTEM "file:/C:/Users/CampusFP/Documents/Git/MiPrimerRepo/LenguajeDeMarcas/2%C2%BATrimestre/Primeros_Pasos_XML/Tarea%20repaso%20-%20XML/notas%20-%20hito.dtd">
+<!DOCTYPE notas SYSTEM "file:/C:/Users/CampusFP/Documents/Git/MiPrimerRepo/LenguajeDeMarcas/2%C2%BATrimestre/Primeros_Pasos_XML/Tarea%20repaso%20-%20XML/notas.dtd">
 <notas>
     <alumno>
         <nota1>5</nota1>

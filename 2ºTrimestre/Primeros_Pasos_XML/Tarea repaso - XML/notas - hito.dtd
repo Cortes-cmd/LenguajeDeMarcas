@@ -1,0 +1,5 @@
+<!ELEMENT notas (alumno)>
+<!ELEMENT alumno (Entornosde_desarrollo, Programacion, Lenguaje_de_marcas)>
+<!ELEMENT Entornos_de_desarrollo (#PCDATA)>
+<!ELEMENT Programacion (#PCDATA)>
+<!ELEMENT Lenguaje_de_marcas (#PCDATA)>

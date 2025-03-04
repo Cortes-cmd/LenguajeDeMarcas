@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    #lista {
+        background-color: black;
+        color: red;
+    }
+    </style>
+
+</head>
+<body>
+    <h1>Lista de productos</h1>
+    <ul id="lista"></ul>
+    
+    <script>
+        const jsonUrl = "data.json";
+
+        fetch(jsonUrl)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error al cargar el archivo JSON');
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log('Datos obtenidos:', data);
+                displayCatalog(data);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+
+        function displayCatalog(data) {
+            const lista = document.getElementById("lista");
+
+            data.forEach(producto => {
+                const item = document.createElement("li");
+                item.innerHTML = `
+                    <strong>${productos.marca}</strong> <span></span><br>
+                    <strong>${productos.modelo}</strong> <span></span><br>
+                    <strong>${productos.precio}</strong> <span></span><br>
+                    <strong>${productos.imagen}</strong> <span></span><br>
+                `;
+                lista.appendChild(item);
+            });
+        }
+    </script>
+</body>
