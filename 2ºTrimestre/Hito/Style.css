@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(68, 45, 45, 0.699);
+    background-color: rgba(227, 14, 14, 0.699);
     color: black;
     text-align: center;
 }
@@ -31,9 +31,6 @@ th {
     background-color: #845ec2;
 }
 
-tbody tr:nth-child(even) {
-    background-color: #1284e2;
-}
 
 thead {
     border-bottom: 2px solid white;
