@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Aquí introduzco los datos de bootstrap y el css que usaré-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tiempo por Provincia</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Abro con un titulo del tema de esta pagina, y muestro dos apartados para elegir la provincia y la localidad-->
+<div class="container mt-5 p-4 bg-white rounded shadow">
+  <h2 class="text-center mb-4">Consulta del Tiempo en España</h2>
+
+  <div class="form-group">
+    <label for="provinciaSelect">Selecciona una provincia:</label>
+    <select class="form-control" id="provinciaSelect">
+        <option disabled selected>-- Selecciona provincia --</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="municipioSelect">Selecciona una localidad:</label>
+    <select class="form-control" id="municipioSelect">
+        <option disabled selected>-- Selecciona localidad --</option>
+    </select>
+</div>
+  </div>
+
+    <!-- Marco el id del municipio para posteriormente cargar los datos referenciandolo -->
+  <div id="datosMunicipio" class="mt-4"></div>
+</div>
+
+<!-- Enlace al JS y el jquery -->
+<script src="JS.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</body>
+</html>
