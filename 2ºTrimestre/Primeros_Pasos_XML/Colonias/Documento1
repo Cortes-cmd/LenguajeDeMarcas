@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+  <libro>
+    <titulo>Ell Quijote</titulo>
+    <autor>Miguel de Cervantes</autor>
+    <anio>1605</anio>
+    <precio moneda="EUR">20.99</precio>
+  </libro>
+  <libro>
+    <titulo>Cien años de soledad</titulo>
+    <autor>Gabriel García Márquez</autor>
+    <anio>1967</anio>
+    <precio moneda="USD">15.50</precio>
+  </libro>
+
+
+
+
+
+
+
+
+
+
+
+
+</catalogo>

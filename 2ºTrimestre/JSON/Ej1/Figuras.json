@@ -1,0 +1,87 @@
+[
+{
+
+    "name": "Bolotro",
+    "Tamaño": 240,
+    "Color": "Morado",
+    "Segunda Mano":"True",
+    "id" : "01"
+
+
+},
+{
+
+    "name": "Paritro",
+    "Tamaño": 120,
+    "Color": "Naranja",
+    "Segunda Mano":"False",
+    "id" : "01"
+
+},
+{
+    "name": "Venezuela",
+    "Tamaño": 420,
+    "Color": "Amarillo",
+    "Segunda Mano":"False",
+    "id" : "02"
+
+
+
+},
+{
+    "name": "Wasazro",
+    "Tamaño": 630,
+    "Color": "Negro",
+    "Segunda Mano":"False",
+    "id" : "03"
+
+
+
+},
+{
+    "name": "Mimo",
+    "Tamaño": 1090,
+    "Color": "Rojo",
+    "Segunda Mano":"True",
+    "id" : "04"
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

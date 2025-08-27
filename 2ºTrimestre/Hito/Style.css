@@ -1,0 +1,37 @@
+body {
+    background-color: rgba(227, 14, 14, 0.699);
+    color: black;
+    text-align: center;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom:5% ;
+    background-color: #9c7ca3;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+    padding: 10%;
+    margin-bottom: 10%;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid white;
+}
+
+th {
+    background-color: #845ec2;
+}
+
+
+thead {
+    border-bottom: 2px solid white;
+}
