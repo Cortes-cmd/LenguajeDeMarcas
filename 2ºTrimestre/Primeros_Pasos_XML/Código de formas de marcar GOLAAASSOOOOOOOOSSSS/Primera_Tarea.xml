@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Formas_De_Meter_GOL>
+
+    <Pantorrilla>
+        <Estilo>Mejorable</Estilo>
+        <Resultado>Si marcas te aplauden</Resultado>
+        <Impacto>Sos un capo </Impacto>
+    </Pantorrilla>
+    
+    <Chilena>
+      <Estilo>Tremendo voltaje en las piernas</Estilo>
+      <Resultado>GOLAAASSSOOOOOOOO</Resultado>
+      <Impacto>Ay mi cuqui</Impacto>
+    </Chilena>
+    
+    <Telequinesis>
+      <Estilo>Qué eres</Estilo>    
+      <Resultado>Se tatúan tu nombre</Resultado>
+      <Impacto>El portero llora</Impacto>
+    </Telequinesis>
+    
+</Formas_De_Meter_GOL>

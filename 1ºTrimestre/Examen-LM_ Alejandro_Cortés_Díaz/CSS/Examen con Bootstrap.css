@@ -1,0 +1,91 @@
+
+.Img_1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.Texto_Intro{
+    color: blueviolet;
+    text-align: center;
+    padding: 5%;    
+}
+
+.tabla{
+    text-align: center;
+    padding: 10%;
+}
+
+.tabla th{
+    text-align: center;
+}
+.tabla td{
+    text-align: center;
+}
+
+.tabla_content {
+    margin: 0 auto; 
+}
+
+.tabla_content th, .tabla_content td {
+    text-align: center; 
+    margin-top: 5%;
+   
+}
+
+.Barra_Navegacion{
+
+    background-color: black;
+}
+
+.row1{
+    text-align: center;
+}
+
+.card1{
+    margin-top: 5%;
+    color: red;
+    background-color: rgb(22, 22, 246);
+    width: 18rem;
+    
+}
+
+.card2{
+    margin-top: 5%;
+    background-color: orange;
+    width: 18rem;
+}
+
+.card3{
+    margin-top: 5%;
+    color: white;
+    background-color: rgb(117, 66, 165);
+    width: 18rem;
+}
+
+.mb-3{
+    margin-top: 2%;
+}
+
+.navbar-toggler-icon{ 
+    background-color: transparent; 
+}
+
+.Inicio_Disc{
+    color: red;
+}
+
+.Inicio_Com{
+    color: burlywood;
+}
+
+.Inicio_IN{
+    color: purple;
+}
+
+.footer{
+    background-color: rgb(76, 43, 107);
+    color: black;
+    text-align: center;
+    padding: 3%;
+    margin-top: 5%;
+}

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:/C:/Users/CampusFP/Documents/Git/MiPrimerRepo/LenguajeDeMarcas/2%C2%BATrimestre/Primeros_Pasos_XML/Tarea%20repaso%20-%20XML/notas.xsl"?>
+<!DOCTYPE notas SYSTEM "file:/C:/Users/CampusFP/Documents/Git/MiPrimerRepo/LenguajeDeMarcas/2%C2%BATrimestre/Primeros_Pasos_XML/Tarea%20repaso%20-%20XML/notas.dtd">
+<notas>
+    <alumno>
+        <Entornosdedesarrollo>5</Entornosdedesarrollo>
+        <Programacion>7</Programacion>
+        <Lenguajedemarcas>10</Lenguajesdemarcas>
+        <Notamedia>7.5</Notamedia>
+    </alumno>
+    <alumno>
+        <Entornosdedesarrollo>6</Entornosdedesarrollo>
+        <Programacion>3</Programacion>
+        <Lenguajedemarcas>7</Lenguajesdemarcas>
+        <Notamedia>5.3</Notamedia>
+    </alumno>
+    <alumno>
+        <Entornosdedesarrollo>7</Entornosdedesarrollo>
+        <Programacion>9</Programacion>
+        <Lenguajedemarcas>8</Lenguajesdemarcas>
+        <Notamedia>8</Notamedia>
+    </alumno>
+</notas>

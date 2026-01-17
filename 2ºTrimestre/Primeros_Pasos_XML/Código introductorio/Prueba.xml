@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<asignaturas>
+
+  <asigntatura>
+
+    <nombre>Lenguaje de Marcas</nombre>
+    <horas>3</horas>
+    <profesor>María Luz</profesor>
+
+  </asigntatura>
+
+  <asigntatura>
+
+    <nombre>Entornos de Desarrollo</nombre>
+    <horas>2</horas>
+    <profesor>María Luz</profesor>
+
+  </asigntatura>
+  
+    <asigntatura>
+
+    <nombre>Herramientas de Desarrollo</nombre>
+    <horas>3</horas>
+    <profesor>María Luz</profesor>
+
+  </asigntatura>
+  
+    <asigntatura>
+
+    <nombre>Base de Datoss</nombre>
+    <horas>6</horas>
+    <profesor>Amelia</profesor>
+
+  </asigntatura>
+  
+    <asigntatura>
+
+    <nombre>Programación</nombre>
+    <horas>8</horas>
+    <profesor>Miguel Angel Rogel</profesor>
+
+  </asigntatura>
+</asignaturas>

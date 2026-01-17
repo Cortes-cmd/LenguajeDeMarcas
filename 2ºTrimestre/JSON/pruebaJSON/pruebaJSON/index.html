@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mostrar JSON</title>
+  <style>
+    table {
+      width: 50%;
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    #img_central{
+      display: block;
+      margin:auto;
+      border: 10;
+      padding: 5%;
+    }
+    table{
+      border-color: black;
+      background-color: purple;
+    }
+
+    th{
+      background-color: blanchedalmond;
+    }
+    
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center;">Datos de figuritas</h1>
+
+  <div style="text-align: center; margin-bottom: 20px;">
+    <input type="text" id="nameFilter" placeholder="Filtrar por nombre" oninput="FiltrarDatos()">
+  </div>
+  <div> <img id="img_central"     src="/img/Estanteria.webp" alt="Imagen de elenco de figuras"> </div>
+  <div id="data-container" style="text-align:center;">
+    <table border="3">
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>Nombre</th>
+          <th>Tamaño</th>
+          <th>Color</th>
+          <th>Segunda_Mano</th>
+        </tr>
+      </thead>
+      <tbody id="data-table-body">
+        <!-- Los datos se cargarán aquí -->
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+{
+    "productos":[
+
+        {
+            "nombre": "Televisor",
+            "precio": 500,
+            "stock":20
+        },
+        {
+            "nombre":"Portatil",
+            "precio":1200,
+            "stock":15
+        },
+        {
+
+            "nombre":"Movil",
+            "precio": 800,
+            "stock":30
+        }
+    ]
+}
+
+
+    <!ELEMENT productos (producto+)>
+    <!ELEMENT producto (nombre,precio,stock)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT stock (#PCDATA)>
+
+
+
+
+
+
+// XML.xml
+<vehiculos>
+    <vehiculo>
+        <marca>Toyota</marca>
+        <modelo>Corolla</modelo>
+        <año>2020</año>
+    </vehiculo>
+    <vehiculo>
+        <marca>Ford</marca>
+        <modelo>Focus</modelo>
+        <año>2018</año>
+    </vehiculo>
+    <vehiculo>
+        <marca>Honda</marca>
+        <modelo>Civic</modelo>
+        <año>2022</año>
+    </vehiculo>
+</vehiculos>
+
+// json
+{
+
+    "empleados":[
+
+        {
+            "nombre":"Juan",
+            "puesto": "Ingeniero",
+            "salario":3000
+        },
+        {
+            "nombre": "Elena",
+            "puesto": "Diseñadora",
+            "salario": 2800
+        },
+        {
+            "nombre": "Mario",
+            "puesto": "Analista",
+            "salario": 3200
+        }
+    ]
+}
+
+
+// dtd
+<!DOCTYPE cursos[
+    <!ELEMENT cursos (curso+)>
+    <!ELEMENT curso (nombre,duracion,nivel)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT duracion (#PCDATA)>
+    <!ELEMENT nivel (#PCDATA)>
+]>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
